@@ -1,0 +1,32 @@
+package dao;
+
+import java.util.Scanner;
+
+import DB.DBConnection;
+import dto.empDto;
+
+public class empDao {
+	Scanner sc = new Scanner(System.in);
+	private static empDao dao = new empDao();
+	
+	private empDao() {
+		DBConnection.initConnection();
+	}
+	
+	public static empDao getInstance() {
+		return dao;
+	}
+	
+	public boolean addMember(empDto dto) {
+		String sql = " INSERT INTO MYEMPLOYEES "
+				+ " (SEQ, NAME, PHONENUM, EMAIL, SAL) "
+				+ " VALUES( SEQ_MYEMPLOYEES.NEXTVAL, ?, ?, ?, ?) ";
+		
+		
+	}
+	
+	
+	
+	
+	
+}

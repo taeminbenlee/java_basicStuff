@@ -1,0 +1,7 @@
+package 문제01;
+
+public abstract class Circle extends Shape {
+	double r; //반지름
+	public abstract double calcArea();
+	
+}

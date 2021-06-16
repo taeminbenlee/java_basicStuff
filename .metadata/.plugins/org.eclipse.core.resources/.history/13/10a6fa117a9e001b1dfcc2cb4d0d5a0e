@@ -1,0 +1,23 @@
+package dao;
+
+import DB.DBConnection;
+
+public class empDao {
+
+	private static empDao dao = new empDao();
+	
+	private empDao() {
+		DBConnection.initConnection();
+	}
+	
+	public static empDao getInstance() {
+		return dao;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

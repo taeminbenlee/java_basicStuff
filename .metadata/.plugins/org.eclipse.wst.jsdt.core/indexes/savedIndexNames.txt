@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\bitcamp\java1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+598461611.index
+3060758513.index
+1666873827.index
+529474418.index
+284303593.index
+1852408940.index

@@ -1,0 +1,11 @@
+package 문제01;
+
+public abstract class Rectangle extends Shape {
+	int width; //폭
+	int height; //높이
+	public abstract double calcArea();
+	public boolean isSquare() {
+		return false;
+		
+	}
+}
